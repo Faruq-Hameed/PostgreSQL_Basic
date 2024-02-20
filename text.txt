@@ -1,0 +1,48 @@
+CREATE DATABASE database_name
+\c => SQL command to connect to a db
+\l => list all db
+ drop DATABASE db_name; => delete 
+
+
+tables are created inside a specific
+database
+
+- Tables are where we stored out data
+- the SQL keywords should be optonally
+capitalized
+- create a table
+- table colums are holds the data
+- the type of data expected in a 
+column should be specified
+
+CREATE TABLE table_name(
+colum_name column_data_type
+);
+
+e.g
+CREATE TABLE table_name(
+_id int,
+name VARCHAR
+);
+
+
+
+CREATE TABLE movies(
+movie_id int,
+movie_name VARCHAR
+);
+
+to list all the column in a table;
+SELECT * form table_name;
+e.g 
+SELECT * from movies;
+
+drop table tb_name
+
+Adding data into table
+- INSERT into table_name(columA, columnB)
+VALUES (value_A, value_B);
+
+e.g
+INSERT into movies(movie_id,
+movie_name)
