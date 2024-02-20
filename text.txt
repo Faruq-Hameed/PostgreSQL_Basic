@@ -27,6 +27,8 @@ name VARCHAR
 
 
 
+
+
 CREATE TABLE movies(
 movie_id int,
 movie_name VARCHAR
