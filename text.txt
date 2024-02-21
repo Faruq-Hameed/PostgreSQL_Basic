@@ -1,7 +1,7 @@
 CREATE DATABASE database_name
 \c => SQL command to connect to a db
 \l => list all db
- drop DATABASE db_name; => delete 
+ drop DATABASE db_name; to delete a database
 
 
 tables are created inside a specific
@@ -24,10 +24,6 @@ CREATE TABLE table_name(
 _id int,
 name VARCHAR
 );
-
-
-
-
 
 CREATE TABLE movies(
 movie_id int,
