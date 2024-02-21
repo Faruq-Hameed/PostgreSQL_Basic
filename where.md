@@ -15,3 +15,30 @@ Operator	Description
 - AND	Logical AND operator
 - OR	Logical OR operator
 
+- Example 1: Using WHERE clause with the equal (=) operator. Here we will be using the equal operator in the “customer” table of our sample database.
+SELECT
+    last_name,
+    first_name
+FROM
+    customer
+WHERE
+    first_name = 'Kelly';
+
+
+- Example 2: Using the WHERE clause with the AND operator. Here we will be using the AND operator in the “customer” table of our sample database.
+SELECT
+    last_name,
+    first_name
+FROM
+    customer
+WHERE
+    first_name = 'Kelly'
+AND last_name = 'Knott';
+
+SELECT
+    last_name,
+    first_name
+FROM
+    customer
+WHERE
+    age between 9 AND 20;
