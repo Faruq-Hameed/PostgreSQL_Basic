@@ -48,3 +48,11 @@ movie_name) VALUES (3, 'merlin');
 
 e.g
 INSERT into movies(movie_id) VALUES (1)
+
+
+to see a table description
+\d table_name
+
+- UPDATING TABLE
+UPDATE table_name SET(colum_name_to_be_updated) = (new_column_value) 
+WHERE (column_identification_or_row_identificatio =value_of_column_identification_or_row_identificatio )
