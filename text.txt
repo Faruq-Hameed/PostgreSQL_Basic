@@ -58,3 +58,9 @@ UPDATE table_name SET colum_name_to_be_updated =  new_column_value
 WHERE column_identification_or_row_identificatio =value_of_column_identification_or_row_identificatio ;
 e.g
 UPDATE movies SET movie_name='good doctor' WHERE movie_id=4;
+
+
+DELETE FROM A TABLE
+DELETE FROM table_name_to_delete_from WHERE colum_name = the_value_of_row_to_delete;
+e.g
+DELETE FROM movies WHERE movie_id=4; this will delete the record of movie_id=4 from the table
