@@ -38,7 +38,7 @@ SELECT * from movies;
 
 SELECT A DATA FROM A colum_name
 
-SELECT column_to_select_from FROM table_name WHERE colum_identifier= colum_identifier_value;
+SELECT column_to_select(i.e returned) FROM table_name WHERE colum_identifier(operator e.g =, >)colum_identifier_value;
 e.g
 SELECT movie_name FROM movies WHERE movie_id= 4; this will return the movie name
 
