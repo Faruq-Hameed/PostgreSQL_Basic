@@ -30,7 +30,7 @@ movie_id int,
 movie_name VARCHAR
 );
 
-to list all the column in a table;
+to list all the column in a table together with the data;
 SELECT * form table_name;
 e.g 
 SELECT * from movies;
@@ -54,5 +54,7 @@ to see a table description
 \d table_name
 
 - UPDATING TABLE
-UPDATE table_name SET(colum_name_to_be_updated) = (new_column_value) 
-WHERE (column_identification_or_row_identificatio =value_of_column_identification_or_row_identificatio )
+UPDATE table_name SET colum_name_to_be_updated =  new_column_value 
+WHERE column_identification_or_row_identificatio =value_of_column_identification_or_row_identificatio ;
+e.g
+UPDATE movies SET movie_name='good doctor' WHERE movie_id=4;
