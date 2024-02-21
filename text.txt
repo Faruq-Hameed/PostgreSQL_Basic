@@ -35,6 +35,14 @@ SELECT * form table_name;
 e.g 
 SELECT * from movies;
 
+
+SELECT A DATA FROM A colum_name
+
+SELECT column_to_select_from FROM table_name WHERE colum_identifier= colum_identifier_value;
+e.g
+SELECT movie_name FROM movies WHERE movie_id= 4; this will return the movie name
+
+
 drop table tb_name
 
 Adding data into table
