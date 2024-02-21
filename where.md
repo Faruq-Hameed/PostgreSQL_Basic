@@ -63,3 +63,23 @@ FROM
     customer
 WHERE 
     first_name IN ('Kelly', 'Jo', ' Alexander');
+
+- Example 5: Using the WHERE clause with the LIKE operator. The LIKE operator is used to find string matching a particular pattern. Here we will be using the LIKE operator in the “customer” table of our sample database.
+SELECT
+    first_name,
+    last_name
+FROM
+    customer
+WHERE 
+    first_name LIKE 'Kath%'; last_name and Last_name that has first_name that conatins 'Kath' will be returned
+    
+
+- Example 7: Using the WHERE clause with the not equal operator (<>). Here we will be using the <> operator in the “customer” table of our sample database.
+SELECT 
+    first_name, 
+    last_name
+FROM 
+    customer 
+WHERE 
+    first_name LIKE 'Bra%' AND 
+    last_name <> 'Motley';
