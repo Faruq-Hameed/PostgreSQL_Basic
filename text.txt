@@ -44,7 +44,11 @@ drop table tb_name
 Adding data into table
 - INSERT into table_name(columA, columnB)
 VALUES (value_A, value_B);
-
 e.g
 INSERT into movies(movie_id,
-movie_name)
+movie_name) VALUES (3, 'merlin');
+
+- You can choose to write into few columns instead of all
+
+e.g
+INSERT into movies(movie_id) VALUES (1)
