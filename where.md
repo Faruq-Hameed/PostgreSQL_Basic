@@ -42,3 +42,24 @@ FROM
     customer
 WHERE
     age between 9 AND 20;
+
+
+- Example 3: Using the WHERE clause with the OR operator. Here we will be using the OR operator in the “customer” table of our sample database.
+SELECT
+    first_name,
+    last_name
+FROM
+    customer
+WHERE
+    last_name = 'Cooper' OR 
+    first_name = 'Jo';
+
+
+- Example 4: Using the WHERE clause with the IN operator. The IN operator is used for string matching. Here we will be using the IN operator in the “customer” table of our sample database.
+SELECT
+    first_name,
+    last_name
+FROM
+    customer
+WHERE 
+    first_name IN ('Kelly', 'Jo', ' Alexander');
