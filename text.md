@@ -58,6 +58,10 @@ e.g
 INSERT into movies(movie_id) VALUES (1)
 
 
+List all tables in the database
+\dt;
+
+
 to see a table description
 \d table_name
 
